@@ -46,17 +46,17 @@ This repository includes a custom **Windows Terminal** theme and an **Oh My Posh
 
 [Official Documentation](https://ohmyposh.dev/docs/installation/windows)
 
-1. **Using winget:**
+### Using winget to install
 
-   ```
-   winget install JanDeDobbeleer.OhMyPosh -s winget
-   ```
+```
+winget install JanDeDobbeleer.OhMyPosh -s winget
+```
 
-   > **Note:** It's recommended to restart the terminal to reload the PATH. If the `oh-my-posh` command isn't recognized, you can either re-run the installer or add it manually to your PATH:
-   >
-   > ```
-   > $env:Path += ";C:\Users\<your_user>\AppData\Local\Programs\oh-my-posh\bin"
-   > ```
+> **Note:** It's recommended to restart the terminal to reload the PATH. If the `oh-my-posh` command isn't recognized, you can either re-run the installer or add it manually to your PATH:
+>
+> ```
+> $env:Path += ";C:\Users\<your_user>\AppData\Local\Programs\oh-my-posh\bin"
+> ```
 
 ### Install a compatible font
 
