@@ -1,0 +1,32 @@
+{
+  "profiles": [],
+  "schemes": [
+    {
+      "name": "Tokyo Night Custom",
+
+      "foreground": "#A9B1DC",
+      "background": "#1A1B2C",
+
+      "selectionBackground": "#28344A",
+      "cursorColor": "#C0CAF5",
+
+      "black": "#414868",
+      "red": "#F7768E",
+      "green": "#73DACA",
+      "yellow": "#E0AF68",
+      "blue": "#7AA2F7",
+      "purple": "#BB9AF7",
+      "cyan": "#7DCFFF",
+      "white": "#C0CAF5",
+
+      "brightBlack": "#B3C0F6",
+      "brightRed": "#F7768E",
+      "brightGreen": "#73DACA",
+      "brightYellow": "#E0AF68",
+      "brightBlue": "#7AA2F7",
+      "brightPurple": "#BB9AF7",
+      "brightCyan": "#7DCFFF",
+      "brightWhite": "#C0CAF5"
+    }
+  ]
+}
