@@ -75,7 +75,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 ### Configure your shell to use Oh My Posh custom prompt
 
 1. Download this repository.
-2. Navigate to the `Windows Terminal Theme` folder.
+2. Navigate to the `Oh My Posh` folder.
 3. Run the `install.ps1` script.
 4. Once installed, restart your terminal.
 
