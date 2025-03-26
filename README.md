@@ -1,10 +1,15 @@
 # Windows Terminal Tokyo Night 🌙
 
-A complete Tokyo Night experience for your terminal!!!
-
-This repository includes a custom **Windows Terminal** theme and an **Oh My Posh** prompt configuration to bring the Tokyo Night aesthetic to your shell.
+This repository contains a custom **Windows Terminal** theme and a personalized prompt configuration. You can choose to use either **Starship** or **Oh My Posh** to bring the Tokyo Night aesthetic to your shell.
 
 ![Preview](.github/assets/terminal-preview.png)
+
+## Table of Contents
+
+- [Initial Setup](#initial-setup)
+- [Installation Tokyo Night Theme](#installation-tokyo-night-theme)
+- [Install Starship](#install-oh-my-posh)
+- [Install Oh My Posh](#install-oh-my-posh)
 
 ## Initial Setup
 
@@ -41,6 +46,35 @@ This repository includes a custom **Windows Terminal** theme and an **Oh My Posh
 2. Locate the option **Use Acrylic Material in the tab row**.
 3. Save the changes.
    ![acrylic material](.github/assets/acrylic_material_tab_row.png)
+
+## Install Starship
+
+[Official Documentation](https://starship.rs/guide/). Nerd Fonts is necessary.
+
+### Using winget to install
+
+```
+winget install --id Starship.Starship
+```
+
+### Install a Compatible Font
+
+You need a Nerd Font installed and enabled in your terminal to display icons and special symbols. 
+
+1. Download a `FiraCode Nerd Font` font from:  [Nerd Fonts - Font Downloads](https://www.nerdfonts.com/font-downloads)
+2. Install the font and open the terminal.
+3. Go to `Settings → Profiles → Defaults → Appearance`.
+4. Select the font **FiraCode Nerd Font Mono** and set the thickness to **Medium**.
+5. Save the changes.
+   ![Set font default](.github/assets/set_font_fira_code.png)
+
+### Configure your shell to use Oh My Posh custom prompt
+
+1. Download this repository.
+2. Navigate to the `Starship` folder.
+3. Run the `install.ps1` script.
+4. Once installed, restart your terminal.
+   ![Finished](.github/assets/prompt_starship.png)
 
 ## Install Oh My Posh
 

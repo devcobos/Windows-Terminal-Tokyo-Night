@@ -1,21 +1,9 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
 
 palette:
-  tokyo-0: "#24283b"
-  tokyo-1: "#1a1b26"
-  tokyo-2: "#414868"
-  tokyo-3: "#565f89"
-  tokyo-4: "#a9b1d6"
-  tokyo-5: "#c0caf5"
-  tokyo-6: "#d8dee9"
   tokyo-7: "#7dcfff"
-  tokyo-8: "#2ac3de"
-  tokyo-9: "#7aa2f7"
   tokyo-10: "#bb9af7"
-  tokyo-11: "#f7768e"
-  tokyo-12: "#ff9e64"
   tokyo-13: "#e0af68"
-  tokyo-14: "#9ece6a"
   tokyo-15: "#b4f9f8"
 blocks:
   - type: prompt
@@ -63,7 +51,7 @@ blocks:
     segments:
       - properties:
           cache_duration: none
-        template: "<#7AA2F7>╰─</><#73DACA>\U000f0b6f</><#E0AF68>\U000f0b6f</><#7AA2F7>\U000f0b6f</> \U000f0142 "
+        template: "<#7AA2F7>╰─</><#73DACA>󰊠</><#E0AF68>󰊠</><#7AA2F7>󰊠</> \U000f0142 "
         foreground: p:tokyo-10
         type: text
         style: plain

@@ -1,0 +1,52 @@
+format = """
+[╭─](fg:#7AA2F7)\
+[\\[](fg:#BB9AF7)\
+$username\
+$hostname\
+[\\]](fg:#BB9AF7)\
+$directory\
+$fill\
+$git_branch\
+$time
+[╰─](fg:#7AA2F7)\
+[󰊠](fg:#73DACA)\
+[󰊠](fg:#E0AF68)\
+[󰊠](fg:#7AA2F7)\
+[]()\
+[ \U000f0142 ](fg:#7AA2F7)"""
+
+[username]
+style_user = "fg:#e0af68"
+format = "[$user]($style)"
+show_always = true
+
+[hostname]
+style = "fg:#e0af68"
+format = "[@$hostname]($style)"
+ssh_only = false
+
+[directory]
+style = "fg:#b4f9f8"
+format = "[   $path ]($style)"
+truncation_length = 2
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "fg:#e0af68"
+format = '[$symbol $branch]($style) [|](fg:#7dcfff) '
+
+[time]
+disabled = false
+time_format = "%a | %R"
+style = "fg:#7dcfff"
+format = '[$time]($style)'
+
+[fill]
+style = "hidden fg:#7aa2f7"

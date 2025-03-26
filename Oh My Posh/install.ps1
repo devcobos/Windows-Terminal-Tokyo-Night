@@ -27,4 +27,6 @@ New-Item -Path $profilePath -ItemType File -Force
 
 Add-Content -Path $profilePath -Value $profileContent
 
+Write-Output ' '
 Write-Host "Oh My Posh prompt configured with Tokyo Night theme. Restart your terminal for the changes to take effect."
+Write-Output ' '
