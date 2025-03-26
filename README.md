@@ -1,6 +1,6 @@
 # Windows Terminal Tokyo Night 🌙
 
-This repository contains a custom **Windows Terminal** theme and a personalized prompt configuration. You can choose to use either **Starship** or **Oh My Posh** to bring the Tokyo Night aesthetic to your shell.
+This repository contains a custom **Windows Terminal** theme and a personalized prompt configuration. You can choose to use either **Oh My Posh** or **Starship** to bring the Tokyo Night aesthetic to your shell. Regardless of your choice, the design will remain the same.
 
 ![Preview](.github/assets/terminal-preview.png)
 
