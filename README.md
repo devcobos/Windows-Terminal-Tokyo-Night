@@ -49,7 +49,7 @@ This repository contains a custom **Windows Terminal** theme and a personalized 
 
 ## Install Starship
 
-[Official Documentation](https://starship.rs/guide/). Nerd Fonts is necessary.
+[Official Documentation](https://starship.rs/guide/)
 
 ### Using winget to install
 
