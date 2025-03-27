@@ -6,6 +6,7 @@ $hostname\
 [\\]](fg:#BB9AF7)\
 $directory\
 $fill\
+$nodejs\
 $git_branch\
 $time
 [╰─](fg:#7AA2F7)\
@@ -40,13 +41,22 @@ truncation_symbol = "…/"
 [git_branch]
 symbol = ""
 style = "fg:#e0af68"
-format = '[$symbol $branch]($style) [|](fg:#7dcfff) '
+format = '[\[$symbol $branch\]]($style) '
+only_attached = true
+truncation_length = 20 
+
+[nodejs]
+symbol = "󰎙 "
+style = "fg:#73DACA"
+format = '[\[$symbol($version)\]]($style) '
+detect_files = ["package.json"]
+detect_folders = ["node_modules"]
 
 [time]
 disabled = false
-time_format = "%a | %R"
+time_format = "%a - %R"
 style = "fg:#7dcfff"
-format = '[$time]($style)'
+format = '[\[$time\]]($style)'
 
 [fill]
 style = "hidden fg:#7aa2f7"
