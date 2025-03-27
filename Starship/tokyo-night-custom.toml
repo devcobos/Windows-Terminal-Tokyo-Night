@@ -13,7 +13,6 @@ $time
 [󰊠](fg:#73DACA)\
 [󰊠](fg:#E0AF68)\
 [󰊠](fg:#7AA2F7)\
-[]()\
 [ \U000f0142 ](fg:#BB9AF7)"""
 
 [username]
@@ -49,8 +48,6 @@ truncation_length = 20
 symbol = "󰎙 "
 style = "fg:#73DACA"
 format = '[\[$symbol($version)\]]($style) '
-detect_files = ["package.json"]
-detect_folders = ["node_modules"]
 
 [time]
 disabled = false
