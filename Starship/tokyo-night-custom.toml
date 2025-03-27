@@ -56,4 +56,4 @@ style = "fg:#7dcfff"
 format = '[\[$time\]]($style)'
 
 [fill]
-style = "hidden fg:#7aa2f7"
+symbol = ' '
