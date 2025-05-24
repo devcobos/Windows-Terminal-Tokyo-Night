@@ -27,7 +27,7 @@ ssh_only = false
 
 [directory]
 style = "fg:#b4f9f8"
-format = "[   $path ]($style)"
+format = "[  $path]($style)"
 truncation_length = 2
 truncation_symbol = "…/"
 

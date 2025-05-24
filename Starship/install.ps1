@@ -32,5 +32,8 @@ New-Item -Path $profilePath -ItemType File -Force
 Add-Content -Path $profilePath -Value $profileContent
 
 Write-Output ' '
-Write-Host "Starship prompt configured with Tokyo Night theme. Restart your terminal for the changes to take effect."
+Write-Host "============================================================" -ForegroundColor Cyan
+Write-Host "✅ Starship prompt has been successfully configured!" -ForegroundColor Green
+Write-Host "🚀 Restart your terminal for the changes to take effect." -ForegroundColor Yellow
+Write-Host "============================================================" -ForegroundColor Cyan
 Write-Output ' '

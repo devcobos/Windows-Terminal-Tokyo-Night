@@ -1,6 +1,6 @@
 # Windows Terminal Tokyo Night 🌙
 
-This repository contains a custom **Windows Terminal** theme and a personalized prompt configuration. You can choose to use either **Starship** or **Oh My Posh**  to bring the Tokyo Night aesthetic to your shell.
+This project provides a fully customized Windows Terminal setup featuring a Tokyo Night theme and personalized configurations for a seamless and visually appealing command-line experience. It includes instructions for installing and configuring a compatible font, color schemes, and a Starship prompt.
 
 ![Preview](.github/assets/terminal-preview.png)
 
@@ -9,7 +9,6 @@ This repository contains a custom **Windows Terminal** theme and a personalized 
 - [Initial Setup](#initial-setup)
 - [Installation Tokyo Night Theme](#installation-tokyo-night-theme)
 - [Install Starship](#install-starship)
-- [Install Oh My Posh](#install-oh-my-posh)
 
 ## Initial Setup
 
@@ -59,58 +58,19 @@ winget install --id Starship.Starship
 
 ### Install a Compatible Font
 
-You need a Nerd Font installed and enabled in your terminal to display icons and special symbols. 
+You need a Nerd Font installed and enabled in your terminal to display icons and special symbols.
 
-1. Download a `FiraCode Nerd Font` font from:  [Nerd Fonts - Font Downloads](https://www.nerdfonts.com/font-downloads)
+1. Download a `FiraCode Nerd Font` font from: [Nerd Fonts - Font Downloads](https://www.nerdfonts.com/font-downloads)
 2. Install the font and open the terminal.
 3. Go to `Settings → Profiles → Defaults → Appearance`.
-4. Select the font **FiraCode Nerd Font Mono** and set the thickness to **Medium**.
+4. Select the font **FiraCode Nerd Font Mono** and set the font weigth to **Medium**.
 5. Save the changes.
    ![Set font default](.github/assets/set_font_fira_code.png)
 
-### Configure your shell to use Oh My Posh custom prompt
+### Configure your shell to use StartShip custom prompt
 
 1. Download this repository.
 2. Navigate to the `Starship` folder.
 3. Run the `install.ps1` script.
 4. Once installed, restart your terminal.
    ![Finished](.github/assets/prompt_starship.png)
-
-## Install Oh My Posh
-
-[Official Documentation](https://ohmyposh.dev/docs/installation/windows)
-
-### Using winget to install
-
-```
-winget install JanDeDobbeleer.OhMyPosh -s winget
-```
-
-> **Note:** It's recommended to restart the terminal to reload the PATH. If the `oh-my-posh` command isn't recognized, you can either re-run the installer or add it manually to your PATH:
->
-> ```
-> $env:Path += ";C:\Users\<your_user>\AppData\Local\Programs\oh-my-posh\bin"
-> ```
-
-### Install a compatible font
-
-1. Run the following command in PowerShell:
-   ```
-   oh-my-posh font install
-   ```
-2. Select the `FiraCode` font.
-   ![Select Fira Code](.github/assets/install_fira_code.png)
-3. Restart the terminal.
-4. Go to `Settings → Profiles → Defaults → Appearance`.
-5. Select the font **FiraCode Nerd Font Mono** and set the thickness to **Medium**.
-6. Save the changes.
-   ![Set font default](.github/assets/set_font_fira_code.png)
-
-### Configure your shell to use Oh My Posh custom prompt
-
-1. Download this repository.
-2. Navigate to the `Oh My Posh` folder.
-3. Run the `install.ps1` script.
-4. Once installed, restart your terminal.
-
-   ![Finished](.github/assets/script_prompt.png)

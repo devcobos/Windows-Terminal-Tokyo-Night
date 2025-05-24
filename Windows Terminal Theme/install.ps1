@@ -6,7 +6,10 @@ if (!(Test-Path $installPath)) {
 
 Copy-Item -Path tokyo-night-custom.json -Destination $installPath
 
+
 Write-Output ' '
-Write-Output '🌙 Tokyo Night Custom Colorscheme Fragment Installed'
-Write-Output '  Restart Windows Terminal and then select or set the theme in your profile'
+Write-Host "============================================================" -ForegroundColor Cyan
+Write-Host "🌙 Tokyo Night Colorscheme Fragment Installed." -ForegroundColor Green
+Write-Host "🚀 Restart your terminal for the changes to take effect." -ForegroundColor Yellow
+Write-Host "============================================================" -ForegroundColor Cyan
 Write-Output ' '
