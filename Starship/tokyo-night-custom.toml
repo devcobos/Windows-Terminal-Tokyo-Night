@@ -13,7 +13,7 @@ $time
 [󰊠](fg:#73DACA)\
 [󰊠](fg:#E0AF68)\
 [󰊠](fg:#7AA2F7)\
-[ \U000f0142 ](fg:#BB9AF7)"""
+$character"""
 
 [username]
 style_user = "fg:#e0af68"
@@ -42,10 +42,10 @@ symbol = ""
 style = "fg:#e0af68"
 format = '[\[$symbol $branch\]]($style) '
 only_attached = true
-truncation_length = 20 
+truncation_length = 20
 
 [nodejs]
-symbol = "󰎙 "
+symbol = " "
 style = "fg:#73DACA"
 format = '[\[$symbol($version)\]]($style) '
 
@@ -57,3 +57,9 @@ format = '[\[$time\]]($style)'
 
 [fill]
 symbol = ' '
+
+[character]
+disabled = false
+success_symbol = '[ ](fg:#BB9AF7)'
+error_symbol = '[ ](fg:#BB9AF7)'
+vimcmd_symbol = '[ ](fg:#BB9AF7)'
